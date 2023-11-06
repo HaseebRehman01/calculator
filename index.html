@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple calculator</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://kit.fontawesome.com/d368ad9ef6.js" crossorigin="anonymous"></script>
+
+
+</head>
+<body>
+
+
+    <div class="calculator">
+    <h1 class="h1">Simple calculator</h1>    
+        <input type="text"  id="txtinput" placeholder="" >
+        <div class="buttons">
+            <button class="btn" onclick="allClear('AC')">AC</button>
+            <button class="btn" onclick="remove('C')">D</button>
+            <button class="btn" onclick="calcData('9')">9</button>
+            <button class="btn" onclick="calcData('8')">8</button>
+            <button class="btn" onclick="calcData('7')">7</button>
+            <button class="btn" onclick="calcData('6')">6</button>
+            <button class="btn" onclick="calcData('5')">5</button>
+            <button class="btn" onclick="calcData('4')">4</button>
+            <button class="btn" onclick="calcData('3')">3</button>
+            <button class="btn" onclick="calcData('2')">2</button>
+            <button class="btn" onclick="calcData('1')">1</button>
+            <button class="btn" onclick="calcData('0')">0</button>
+            <button class="btn" onclick="calcData('.')">.</button>
+            <button class="btn" onclick="calcData('00')">00</button>
+            <button class="btn" onclick="calcData('*')" class="size">x</button>
+            <button class="btn" onclick="calcData('/')" class="size"><i class="fa-solid fa-divide fa-sm"></i></button>
+            <button class="btn" onclick="calcData('+')">+</button>
+            <button class="btn" onclick="calcData('-')">-</button>
+            <button class="btn" onclick="equalTo('=')">=</button>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
